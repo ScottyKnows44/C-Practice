@@ -31,12 +31,14 @@ namespace FlappyBird
        
 
             if (pipeBottom.Left < -100){
-                pipeBottom.Left = 800;
+                int newSpot = getRandomPlace();
+                pipeBottom.Left = newSpot;
                 score++;
             }
 
             if (pipeTop.Left < -80) {
-                pipeTop.Left = 800;
+                int newSpot = getRandomPlace();
+                pipeTop.Left = newSpot;
                 score++;
             }
 
@@ -67,6 +69,13 @@ namespace FlappyBird
             gameTimer.Stop();
             scoreText.Text += " Game Over!";
             score = 0;
+        }
+
+        private int getRandomPlace()
+        {
+            var random = new Random();
+            int number = random.Next(800, 1500);
+            return number;
         }
 
         private void scoreText_Click(object sender, EventArgs e)

@@ -46,7 +46,7 @@ namespace FlappyBird
             // pipeTop
             // 
             this.pipeTop.Image = ((System.Drawing.Image)(resources.GetObject("pipeTop.Image")));
-            this.pipeTop.Location = new System.Drawing.Point(541, 2);
+            this.pipeTop.Location = new System.Drawing.Point(350, 1);
             this.pipeTop.Name = "pipeTop";
             this.pipeTop.Size = new System.Drawing.Size(100, 250);
             this.pipeTop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
