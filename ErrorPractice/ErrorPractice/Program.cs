@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace ErrorPractice
 {
@@ -6,44 +8,13 @@ namespace ErrorPractice
     {
         static void Main(string[] args)
         {
-
-
-            Console.WriteLine("Please enter your name: ");
-
-            string name = null;
-
-            try {
-                printName(name);
-
-            }
-            catch(DivideByZeroException ex) {
-                Console.WriteLine(ex.Message);
-            }
-            catch(InvalidOperationException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            catch(FormatException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-
-            Console.ReadKey();
-
+            string s = "The30quick20brown10f0x1203jumps914ov3r1349the102l4zy dog";
+            Console.WriteLine(SumOfIntegersInString(s));
         }
 
-        private static void printName(string std)
+        public static int SumOfIntegersInString(string s)
         {
-            if(std == null)
-            {
-                throw new NullReferenceException("Name is null.");
-            }
-
-            Console.WriteLine(std);
+            return Regex.Matches(s, "\\d+").Sum(x => int.Parse(x.Value));
         }
     }
 }
