@@ -1,0 +1,16 @@
+C:\Users\Titan\source\repos\FileReader\FileReader\bin\Debug\net5.0\FileReader.exe
+C:\Users\Titan\source\repos\FileReader\FileReader\bin\Debug\net5.0\FileReader.deps.json
+C:\Users\Titan\source\repos\FileReader\FileReader\bin\Debug\net5.0\FileReader.runtimeconfig.json
+C:\Users\Titan\source\repos\FileReader\FileReader\bin\Debug\net5.0\FileReader.runtimeconfig.dev.json
+C:\Users\Titan\source\repos\FileReader\FileReader\bin\Debug\net5.0\FileReader.dll
+C:\Users\Titan\source\repos\FileReader\FileReader\bin\Debug\net5.0\ref\FileReader.dll
+C:\Users\Titan\source\repos\FileReader\FileReader\bin\Debug\net5.0\FileReader.pdb
+C:\Users\Titan\source\repos\FileReader\FileReader\obj\Debug\net5.0\FileReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Titan\source\repos\FileReader\FileReader\obj\Debug\net5.0\FileReader.AssemblyInfoInputs.cache
+C:\Users\Titan\source\repos\FileReader\FileReader\obj\Debug\net5.0\FileReader.AssemblyInfo.cs
+C:\Users\Titan\source\repos\FileReader\FileReader\obj\Debug\net5.0\FileReader.csproj.CoreCompileInputs.cache
+C:\Users\Titan\source\repos\FileReader\FileReader\obj\Debug\net5.0\FileReader.dll
+C:\Users\Titan\source\repos\FileReader\FileReader\obj\Debug\net5.0\ref\FileReader.dll
+C:\Users\Titan\source\repos\FileReader\FileReader\obj\Debug\net5.0\FileReader.pdb
+C:\Users\Titan\source\repos\FileReader\FileReader\obj\Debug\net5.0\FileReader.genruntimeconfig.cache
+C:\Users\Titan\source\repos\FileReader\FileReader\obj\Debug\net5.0\FileReader.csprojAssemblyReference.cache
