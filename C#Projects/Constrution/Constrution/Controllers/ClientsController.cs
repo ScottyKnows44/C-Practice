@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Constrution.Controllers
 {
-    [Authorize (Roles = "Administrator")]
+    
     public class ClientsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -22,14 +22,14 @@ namespace Constrution.Controllers
         }
 
         // GET: Clients
-        [Authorize]
+       
         public async Task<IActionResult> Index()
         {
             return View(await _context.Clients.ToListAsync());
         }
 
         // GET: Clients/Details/5
-        [Authorize]
+   
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -48,7 +48,7 @@ namespace Constrution.Controllers
         }
 
         // GET: Clients/Create
-        [Authorize]
+    
         public IActionResult Create()
         {
             return View();
@@ -59,7 +59,7 @@ namespace Constrution.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize]
+      
         public async Task<IActionResult> Create([Bind("Id,Name,Email,Phone")] Clients clients)
         {
             if (ModelState.IsValid)
@@ -72,7 +72,7 @@ namespace Constrution.Controllers
         }
 
         // GET: Clients/Edit/5
-        [Authorize]
+      
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -93,7 +93,7 @@ namespace Constrution.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize]
+      
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Email,Phone")] Clients clients)
         {
             if (id != clients.Id)
@@ -125,7 +125,7 @@ namespace Constrution.Controllers
         }
 
         // GET: Clients/Delete/5
-        [Authorize]
+      
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -146,7 +146,7 @@ namespace Constrution.Controllers
         // POST: Clients/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize]
+      
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var clients = await _context.Clients.FindAsync(id);
