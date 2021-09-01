@@ -5,7 +5,6 @@ C:\Users\Titan\Desktop\Projects\C-Practice\ErrorPractice\ErrorPractice\bin\Debug
 C:\Users\Titan\Desktop\Projects\C-Practice\ErrorPractice\ErrorPractice\bin\Debug\net5.0\ErrorPractice.dll
 C:\Users\Titan\Desktop\Projects\C-Practice\ErrorPractice\ErrorPractice\bin\Debug\net5.0\ref\ErrorPractice.dll
 C:\Users\Titan\Desktop\Projects\C-Practice\ErrorPractice\ErrorPractice\bin\Debug\net5.0\ErrorPractice.pdb
-C:\Users\Titan\Desktop\Projects\C-Practice\ErrorPractice\ErrorPractice\obj\Debug\net5.0\ErrorPractice.csprojAssemblyReference.cache
 C:\Users\Titan\Desktop\Projects\C-Practice\ErrorPractice\ErrorPractice\obj\Debug\net5.0\ErrorPractice.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Titan\Desktop\Projects\C-Practice\ErrorPractice\ErrorPractice\obj\Debug\net5.0\ErrorPractice.AssemblyInfoInputs.cache
 C:\Users\Titan\Desktop\Projects\C-Practice\ErrorPractice\ErrorPractice\obj\Debug\net5.0\ErrorPractice.AssemblyInfo.cs
@@ -14,3 +13,4 @@ C:\Users\Titan\Desktop\Projects\C-Practice\ErrorPractice\ErrorPractice\obj\Debug
 C:\Users\Titan\Desktop\Projects\C-Practice\ErrorPractice\ErrorPractice\obj\Debug\net5.0\ref\ErrorPractice.dll
 C:\Users\Titan\Desktop\Projects\C-Practice\ErrorPractice\ErrorPractice\obj\Debug\net5.0\ErrorPractice.pdb
 C:\Users\Titan\Desktop\Projects\C-Practice\ErrorPractice\ErrorPractice\obj\Debug\net5.0\ErrorPractice.genruntimeconfig.cache
+C:\Users\Titan\Desktop\Projects\C-Practice\ErrorPractice\ErrorPractice\obj\Debug\net5.0\ErrorPractice.csproj.AssemblyReference.cache
